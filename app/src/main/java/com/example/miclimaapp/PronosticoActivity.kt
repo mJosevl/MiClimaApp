@@ -1,11 +1,10 @@
-package com.sakhura.climaapp
+package com.example.miclimaapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sakhura.climaapp.adapter.PronosticoAdapter
-import com.sakhura.climaapp.databinding.ActivityPronosticoBinding
 import com.sakhura.climaapp.repository.ClimaRepository
 import kotlinx.coroutines.launch
 

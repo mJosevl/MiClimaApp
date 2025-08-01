@@ -1,4 +1,4 @@
-package com.sakhura.climaapp.model
+package com.example.miclimaapp.model
 
 data class ClimaResponse(
     val name: String,

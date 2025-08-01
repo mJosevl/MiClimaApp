@@ -1,4 +1,4 @@
-package com.sakhura.climaapp.api
+package com.example.miclimaapp.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

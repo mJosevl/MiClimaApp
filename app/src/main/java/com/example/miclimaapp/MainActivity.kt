@@ -1,6 +1,8 @@
 package com.example.miclimaapp
 
+import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.miclimaapp.repository.ClimaRepository
 
 
 class MainActivity : AppCompatActivity() {

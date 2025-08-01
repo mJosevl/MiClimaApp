@@ -1,9 +1,9 @@
-package com.sakhura.climaapp.repository
+package com.example.miclimaapp.repository
 
-import com.sakhura.climaapp.api.ClimaApiService
-import com.sakhura.climaapp.api.RetrofitClient
-import com.sakhura.climaapp.model.ClimaResponse
-import com.sakhura.climaapp.model.PronosticoResponse
+import com.example.miclimaapp.api.RetrofitClient
+import com.example.miclimaapp.model.ClimaResponse
+import com.example.miclimaapp.model.PronosticoResponse
+
 
 class ClimaRepository {
     private val api = RetrofitClient.instance.create(ClimaApiService::class.java)

@@ -1,7 +1,8 @@
-package com.sakhura.climaapp.api
 
-import com.sakhura.climaapp.model.ClimaResponse
-import com.sakhura.climaapp.model.PronosticoResponse
+
+
+import com.example.miclimaapp.model.ClimaResponse
+import com.example.miclimaapp.model.PronosticoResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

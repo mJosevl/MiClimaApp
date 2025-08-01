@@ -1,4 +1,4 @@
-package com.sakhura.climaapp.model
+package com.example.miclimaapp.model
 
 
 data class PronosticoResponse(

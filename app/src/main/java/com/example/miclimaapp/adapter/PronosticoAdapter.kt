@@ -1,12 +1,11 @@
-package com.sakhura.climaapp.adapter
+package com.example.miclimaapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.sakhura.climaapp.R
-import com.sakhura.climaapp.model.PronosticoDia
+
 
 class PronosticoAdapter : RecyclerView.Adapter<PronosticoAdapter.ViewHolder>() {
     private val lista = mutableListOf<PronosticoDia>()
