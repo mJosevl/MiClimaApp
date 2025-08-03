@@ -1,0 +1,9 @@
+<resources>
+<<<<<<< HEAD
+    <string name="desc_fav">Marcar como favorito</string>
+    <string name="app_widget_description">WheatherApp</string>
+    <string name="app_name">pincheappdeclima</string>
+=======
+    <string name="app_name">MiClimaApp</string>
+>>>>>>> 6b7478a8298a850e3f40740a79e92efe51feb9bd
+</resources>

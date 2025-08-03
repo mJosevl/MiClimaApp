@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    android:id="@+id/layoutPronostico"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/myVectorImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_vector_example"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"/>
+=======
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPronostico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PronosticoActivity">
+>>>>>>> 6b7478a8298a850e3f40740a79e92efe51feb9bd
+
+    <TextView
+        android:id="@+id/tvTituloPronostico"
+        android:layout_width="match_parent"
+<<<<<<< HEAD
+        android:layout_height="match_parent"
+        android:text="Pronóstico de 5 días"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+=======
+        android:layout_height="wrap_content"
+        android:text="Pronóstico de 5 días"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+>>>>>>> 6b7478a8298a850e3f40740a79e92efe51feb9bd
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPronostico"
+        android:layout_width="match_parent"
+<<<<<<< HEAD
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop= "8dp"
+        android:paddingBottom= "8dp"/>
+
+</LinearLayout>
+=======
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+>>>>>>> 6b7478a8298a850e3f40740a79e92efe51feb9bd
